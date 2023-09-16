@@ -1,0 +1,101 @@
+body{
+    background-color: darkcyan;
+    text-align: center;
+    margin: 0.5rem;
+}
+nav{
+    max-width: 500px;
+    background:lightcyan ;
+    
+    
+}
+p{
+    font-size: 1rem;
+    color: rgb(230, 64, 64);
+    background:lightpink ;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 33px;
+    color: crimson;
+    background: rgb(243, 173, 123);
+    
+    
+
+}
+h2{
+    font-size: 22px;
+    color: rgb(226, 25, 132);
+    background:rgb(228, 186, 208) ;
+    padding :1rem;
+}
+
+.content{
+    max-width: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+}
+a{
+    cursor:grab;
+    color: darkmagenta;
+    text-decoration: none;
+}
+li a{
+    display: block;
+}
+li a:visited{
+    color:rgb(41, 153, 228);
+  
+}
+ li a:active{
+    color: chartreuse;
+}
+ li a:hover{
+    color: lightcoral;
+    background: #333;
+}
+table,tr,th,caption,td{
+    border: 3px solid #aaa;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 2.7rem;
+   
+}
+li{
+    border-top: 1px solid #333;
+    
+}
+li:first-child a{
+    border-radius: 2rem 2rem 0 0;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+    font-size: 1.7rem;
+}
+ul::marker{
+    color:rgb(54, 2, 2);
+    font-size: 3em;
+}
+#Con{
+    font-size: 1rem;
+    background-color: rgb(241, 233, 230);
+}
+#Home{
+    font-size: 2rem;
+    background-color: rgb(233, 243, 243);
+}
+h3{
+    font-size: 2rem;
+    color: rgb(238, 108, 47);
+}
+h4{
+    font-size: 1.4rem;
+    color: rgb(45, 68, 3);
+}
